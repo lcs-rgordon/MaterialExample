@@ -22,6 +22,8 @@ struct ExampleColorListView: View {
                 
                 Rectangle()
                     .fill(customColor)
+                    .frame(height: 40)
+                    .padding(.vertical, 10)
 
             }
             .listStyle(.plain)
