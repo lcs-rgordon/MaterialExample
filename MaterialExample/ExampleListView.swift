@@ -12,6 +12,8 @@ struct ExampleListView: View {
         NavigationStack {
             List(0..<100) { index in
                 Text("Item \(index)")
+                    .font(.title)
+                    .padding(5)
             }
             .navigationTitle("Numbers")
         }
